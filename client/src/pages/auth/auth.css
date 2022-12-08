@@ -1,0 +1,14 @@
+.authBoxShadow::after {
+  content: "";
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  background: linear-gradient(90deg, purple, green, hotpink);
+  z-index: -1;
+  filter: blur(20px);
+}
+
+.authBoxShadow{
+    border-radius: 15px;
+}
+
